@@ -1,0 +1,1 @@
+cmd_/root/data/sources/pmeminfo/pmeminfo.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /root/data/sources/pmeminfo/pmeminfo.ko /root/data/sources/pmeminfo/pmeminfo.o /root/data/sources/pmeminfo/pmeminfo.mod.o
